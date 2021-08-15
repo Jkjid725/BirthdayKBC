@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="anu.css">
+      <link rel="stylesheet" href="imag.css">
+
+      <title>Birthday Special</title>
+      
+  </head>
+  <body class="bg-custom">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="anu.html">KBAKP</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="anu.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-md-6">
+          <img src="images/anu1.jpg" width="550px" height="400px" alt="Anu the Billi" />
+        </div>
+        <div class="col-md-6 ">
+          <br>
+          <label style="font-size: 24px;font-weight: bold; font-style: italic; color: darkslategray;">
+            Chaliye shuru karte hai Kaun Banega Anukrati ka Pati
+          </label><br><br>
+            <label class="label1">To apke screen par pehla sawal</label>
+            <br><br>
+            <form id="form1">
+                <label for="ans0" style="font-size:24px; font-weight: bold; font-style: italic; color: black;">
+                    Raat ke 2 bje shorts me kaun ghoom rha tha?
+
+                </label><br><br>
+                <button  class="btn btn-primary" style="margin-left: 10px;">Akshita</button>
+                <button  class="btn btn-primary" style="margin-left: 10px;">Atharv</button>
+                <button  class="btn btn-primary" style="margin-left: 10px;">Animesh</button>
+                <button id="submit" type="submit" class="btn btn-primary " style="margin-left: 10px;">Abhishek</button>
+                
+                
+            </form> 
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <!-- <div style="padding-left: 500px;">
+        
+        <button  class="btn btn-primary" style="font-size: 15px; margin-bottom: 13px; margin-left: 110px;"><a style="color:coral;text-decoration: none;" href="/clues.html" >Let's Go</a></button>
+        
+    </div> -->
+    
+    <script>
+        const submit = document.getElementById("submit");
+
+        submit.addEventListener("click", validate);
+
+        function validate(e) {
+        e.preventDefault();
+        window.location.href = "abhishek.html"
+        }
+  </script>
+
+  </body>
+</html>

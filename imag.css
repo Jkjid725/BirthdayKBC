@@ -1,0 +1,64 @@
+
+.abhiimager{
+      width: 370px;
+      height: 457px;    
+}
+
+.asisimager{
+      width: 435px;
+      height: 457px; 
+}
+
+.asisimager2{
+      width: 515px;
+      height: 357px;
+      
+}
+
+.aniimager{
+      width: 625px;
+      height: 487px;
+      padding-left: 20px; 
+      /* margin-left: 20px; */
+}
+
+.videostyle{
+      padding-top: 60px;;
+      margin-left: 20px;;
+}
+
+.imager{
+    width: 620px;
+    height: 457px;
+}
+
+.waniimager{
+      width: 420px;
+    height: 357px;
+}
+
+.imager1{
+    width: 300px;
+    height: 357px;
+  }
+
+  .imager2{
+    width: 615px;
+    height: 370px;
+    justify-content: space-between;
+    margin-bottom: auto;
+  }
+
+  .imager3{
+      width: 520px;
+      height: 457px;
+  }
+
+  .imager4{
+      width: 520px;
+      height: 457px;
+  }
+
+
+
+
